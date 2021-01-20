@@ -15,7 +15,7 @@ export default {
   },
   methods: {
     submitData() {
-      this.$emit("dataInput", name, age);
+      this.$emit("data-input", this.name, this.age);
     }
   }
 };

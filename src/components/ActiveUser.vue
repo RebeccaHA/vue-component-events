@@ -6,5 +6,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    name: {
+      type: String,
+      required: true
+    },
+    age: {
+      type: Number,
+      required: true
+    }
+  }
+};
 </script>
